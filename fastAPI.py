@@ -12,9 +12,9 @@ import pickle
 
 app = FastAPI()
 
-"""@app.get('/')
+@app.get('/')
 def home():
-    return{'text' :'Price prediction'}"""
+    return{'text' :'Price prediction'}
 
 @app.get('/predict')
 def predict(
