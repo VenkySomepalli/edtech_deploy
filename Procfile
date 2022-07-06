@@ -1,1 +1,1 @@
-web: gunicorn app:app --worker-class=gevent --workers 4 --reload --log-level=DEBUG
+web: gunicorn -w 4 -k uvicorns.workers.UvicornsWorker app:app
