@@ -8,4 +8,3 @@ uvicorn
 uvloop
 httptools
 gunicorn == 19.9.0
-pickle
